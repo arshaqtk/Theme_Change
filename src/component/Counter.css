@@ -1,0 +1,52 @@
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+h1,h3{
+    text-align: center;
+}
+
+.BoxWhite{border:1px solid black;
+    height:400px;
+    width:400px;
+    display:grid;
+    justify-content: center;
+    padding: 10px;
+}
+.BoxBlack{border:1px solid rgb(212, 212, 212);
+    height:400px;
+    width:400px;
+    display:grid;
+    justify-content: center;
+    padding: 10px;
+}
+.textWhite{
+    color: black;
+}
+.textBlack{
+    color:white
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #969292;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: white;
+  width: 300px;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}

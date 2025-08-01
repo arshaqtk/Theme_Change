@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f8f7fb;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #0073ff;
+  padding: 15px 30px;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px 40px;
+}
+
+.container {
+  background: #f4f2f8;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.filter-dropdown {
+  margin-bottom: 20px;
+  padding: 6px 10px;
+  font-size: 16px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.status {
+  padding: 5px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.status.active {
+  background-color: green;
+  color: white;
+}
+
+.status.non-active {
+  background-color: orange;
+  color: white;
+}
+
+.total-items {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
